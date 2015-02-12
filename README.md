@@ -1,6 +1,6 @@
 ### Final Project Roster
 
--Andrew Babatunde Olowude
--Cem Zorlular
--Jeffrey Sykes
--Joseph Thomas Beutler
+- Andrew Babatunde Olowude
+- Cem Zorlular
+- Jeffrey Sykes
+- Joseph Thomas Beutler
