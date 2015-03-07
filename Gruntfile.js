@@ -6,7 +6,7 @@
       semver = require('semver'),
       Q      = require('q'),
       chalk  = require('chalk');
-
+  
   module.exports = function(grunt) {
     var justInTimeStaticMappings = { // for plugins that can't be resolved in auto mapping
       protractor    : 'grunt-protractor-runner',
@@ -110,6 +110,7 @@
         done();
       }, 1500);
     });
+    grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.registerTask('express-keepalive', 'Keep grunt running', function() {
       this.async();
     });
